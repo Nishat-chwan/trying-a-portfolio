@@ -26,12 +26,19 @@
     font-size: 20px;
     font-weight: bold;
     padding: 18px 35px;
+    cursor: pointer; 
+    /* eta korle hover korle cursor pointer hoye jabe */
 }
+
 
 /* main style */
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png") ,url("../images/header_bg.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
     padding-top: 51px;
+    
 }
 nav{
     width: 71%; 
@@ -56,4 +63,40 @@ nav .menu a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+}
+#banner{
+    border: 1px solid red;
+    margin: 56px 38px 0px 226px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-conten{
+    max-width: 585px;
+}
+
+#banner .banner-content h3{
+    font-size:45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size:85px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom:20px;
+    }
+#banner .banner-content p{
+    font-size: 18px;
+    font-weight: regular;
+    line-height: 30px;
+    color:#757575;
+    margin-bottom: 46px;
+}
+
+#banner .banner-image img{
+    max-width: 584px;
+    /* auto gap baadh dite */
+    vertical-align: middle;
 }
