@@ -54,7 +54,9 @@ header{
     background-color: #FFF8F3;
     background: url("../images/developer.png") ,url("../images/header_bg.png");
     background-repeat: no-repeat, no-repeat;
-    background-position: top left, bottom right;
+    /* background-position: top left, bottom right; */
+    background-position: 23px 38px, bottom right;
+
     padding-top: 51px;
     
 }
@@ -62,7 +64,7 @@ nav{
     width: 71%; 
     /* 1140 % 1600 */
     max-width: 1140px;
-    border: 1px solid red;
+
     margin: 0px auto;
     /* 0=upor nich auto=dan-bam theke soman margin nibe */
     display: flex;
@@ -83,7 +85,7 @@ nav .menu a{
     color: #474747;
 }
 #banner{
-    border: 1px solid red;
+   
     margin: 56px 38px 0px 226px;
     display: flex;
     justify-content: space-between;
