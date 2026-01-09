@@ -29,6 +29,23 @@
     cursor: pointer; 
     /* eta korle hover korle cursor pointer hoye jabe */
 }
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
 
 
 /* main style */
@@ -99,4 +116,29 @@ nav .menu a{
     max-width: 584px;
     /* auto gap baadh dite */
     vertical-align: middle;
+}
+#about{
+    padding-top: 185px;
+}
+#about .about-section{
+        width: 71%;
+        max-width: 1140px;
+        margin: 0 auto ; 
+        text-align: center;
+        background-color: #FFF8F3;
+        padding: 131px 156px;
+
+}
+#about .about-section .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-section .about-info p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-section .about-info h4{
+   font-size: 20px;
 }
